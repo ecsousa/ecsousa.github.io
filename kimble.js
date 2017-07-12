@@ -21,8 +21,13 @@
 
       var nextField = $("tr#" + rowKey + " input[entry-date='" + nextDate + "']");
 
-      nextField.focus().focusin();
-      window.setTimeout(function() { $("input.start-time[row-key='" + rowKey + "'][entry-date='" + nextDate + "']").focus().focusin(); }, 100)
+      if(nextField.length == 0) {
+        $("input.start-time[row-key='" + rowKey + "'][entry-date='" + currentDate + "']").focus().focusin();
+      }
+      else {
+        nextField.focus().focusin();
+        window.setTimeout(function() { $("input.start-time[row-key='" + rowKey + "'][entry-date='" + nextDate + "']").focus().focusin(); }, 100)
+      }
     }
   })
 })();
