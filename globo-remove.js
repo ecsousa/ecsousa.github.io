@@ -6,5 +6,9 @@
   $('#relacionadas-topo').remove();
   $('#glb-topo').remove();
   $('#header').remove();
+  $('#header-produto').remove();
   $('.content-ads').remove();
+  $('.tudosobre-container').remove();
+  $('#banner_slb_meio').remove();
+  $('.publicidade').remove();
 })();
