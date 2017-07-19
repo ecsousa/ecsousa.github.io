@@ -19,4 +19,5 @@
   $('.teads-inread').remove();
   $('.top-header').remove();
   $('.tudosobre-container').remove();
+  $('div[data-google-query-id]').remove();
 })();
