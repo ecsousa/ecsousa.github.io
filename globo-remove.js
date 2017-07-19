@@ -11,6 +11,7 @@
   $('#onesignal-popover-container').remove();
   $('#relacionadas-topo').remove();
   $('#sidebar').remove();
+  $('.aep-ads').remove();
   $('.box-vejaTambem').remove();
   $('.content-ads').remove();
   $('.publicidade').remove();
