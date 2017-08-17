@@ -13,6 +13,7 @@
     '#onesignal-popover-container',
     '#relacionadas-topo',
     '#sidebar',
+    '#outbrain-recomendacao2',
     '.aep-ads',
     '.box-vejaTambem',
     '.content-ads',
