@@ -3,11 +3,11 @@
 
 (function() {
   var selectorsToRemove = [
-    '#header-cbn',
     '#banner_slb_meio',
     '#banner_slb_topo',
     '#glb-topo',
     '#header',
+    '#header-cbn',
     '#header-produto',
     '#oglobo-shopping',
     '#onesignal-popover-container',
@@ -16,6 +16,9 @@
     '.aep-ads',
     '.box-vejaTambem',
     '.content-ads',
+    '.home-widgets-inferiores',
+    '.hui-publicidade--banner_slb_fim',
+    '.hui-publicidade--banner_slb_meio',
     '.publicidade',
     '.publicidade-materia',
     '.teads-inread',
