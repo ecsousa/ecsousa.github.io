@@ -12,10 +12,9 @@
 
 
       var rowKey = $('input[row-key]:visible').attr('row-key');
-      var dayId = $('input[row-key]:visible').attr('day-id');
-      var currentDate = $("tr#" + rowKey + " input[day-id='" + dayId + "']").attr('entry-date');
+      var currentDate = $('input[row-key]:visible').attr('entry-date');
 
-      var nextDate = new Date(currentDate);
+      var nextDate = new Date(currentDate + ' 00:00:00');
       nextDate.setDate(nextDate.getDate() + amount);
       nextDate = nextDate.getFullYear() + "-" + (nextDate.getMonth() + 1) + "-" + nextDate.getDate();
 
