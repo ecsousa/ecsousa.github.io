@@ -14,11 +14,18 @@
       var rowKey = $('input[row-key]:visible').attr('row-key');
       var currentDate = $('input[row-key]:visible').attr('entry-date');
 
-      var nextDate = new Date(currentDate + ' 00:00:00');
-      nextDate.setDate(nextDate.getDate() + amount);
-      nextDate = nextDate.getFullYear() + "-" + (nextDate.getMonth() + 1) + "-" + nextDate.getDate();
 
-      var nextField = $("tr#" + rowKey + " input[entry-date='" + nextDate + "']");
+      var nextDate;
+      for(var i=1; i < 4; i++) {
+        nextDate = new Date(currentDate + ' 00:00:00');
+        nextDate.setDate(nextDate.getDate() + amount*i);
+        nextDate = nextDate.getFullYear() + "-" + (nextDate.getMonth() + 1) + "-" + nextDate.getDate();
+
+        var nextField = $("tr#" + rowKey + " input[entry-date='" + nextDate + "']");
+
+        if(nextField.length > 0)
+          break;
+      }
 
       if(nextField.length == 0) {
         $("input.start-time[row-key='" + rowKey + "'][entry-date='" + currentDate + "']").focus().focusin();
