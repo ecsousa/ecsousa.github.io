@@ -5,8 +5,6 @@
   var selectorsToRemove = [
     '#banner_slb_meio',
     '#banner_slb_topo',
-    '#glb-topo',
-    '#header',
     '#header-cbn',
     '#header-produto',
     '#oglobo-shopping',
@@ -27,6 +25,11 @@
     '.tudosobre-container',
     '[data-google-query-id]'
   ];
+
+  if($(location).attr('href') != 'http://www.globo.com/') {
+    selectorsToRemove.push('#header');
+    selectorsToRemove.push('#glb-topo');
+  }
 
   var remover;
 
