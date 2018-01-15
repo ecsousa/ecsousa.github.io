@@ -13,6 +13,8 @@
     '#sidebar',
     '#outbrain-recomendacao2',
     '.aep-ads',
+    '.banner-topo',
+    '.barra-assine',
     '.box-vejaTambem',
     '.content-ads',
     '.home-widgets-inferiores',
