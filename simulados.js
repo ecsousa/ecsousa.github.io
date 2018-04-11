@@ -12,6 +12,7 @@
 
     if(e.keyCode == 'M'.charCodeAt(0)) {
       $("[data-id='id_materia']").click()
+      $("._materias_ .bs-deselect-all").click()
       event.preventDefault();
     }
 
@@ -19,5 +20,6 @@
       $("[id='action_questao']").click()
       event.preventDefault();
     }
+
   })
 })();
