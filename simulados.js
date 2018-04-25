@@ -3,7 +3,15 @@
 
 (function() {
   $(document).keydown(function(e) {
-    if(!e.altKey) return;
+
+    var modifier;
+
+    if(/^Mac/.test(navigator.platform))
+      modifier = e.ctrlKey;
+    else
+      modifier = e.altKey;
+
+    if(!modifier) return;
       
     if(e.keyCode == 'E'.charCodeAt(0)) {
       $('.editar_questao')[0].click()

@@ -2,8 +2,16 @@
 // javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://ecsousa.github.io/kimble.js';})();
 
 (function() {
+
   $(document).keydown(function(e) {
-    if(e.altKey && (e.keyCode == 78 || e.keyCode == 80)) {
+    var modifier;
+
+    if(/^Mac/.test(navigator.platform))
+      modifier = e.ctrlKey;
+    else
+      modifier = e.altKey;
+
+    if(modifier && (e.keyCode == 78 || e.keyCode == 80)) {
       var amount;
       if(e.keyCode == 78)
         amount = 1;
