@@ -7,6 +7,7 @@
     '#banner_slb_topo',
     '#header-cbn',
     '#header-produto',
+    '#login-barreira',
     '#oglobo-shopping',
     '#onesignal-popover-container',
     '#relacionadas-topo',
@@ -27,6 +28,8 @@
     '.tudosobre-container',
     '[data-google-query-id]'
   ];
+
+  $('body').css('overflow', 'auto');
 
   if($(location).attr('href') != 'http://www.globo.com/') {
     selectorsToRemove.push('#header');
