@@ -30,6 +30,7 @@
   ];
 
   $('body').css('overflow', 'auto');
+  $('body').css('display', 'contents');
 
   if($(location).attr('href') != 'http://www.globo.com/') {
     selectorsToRemove.push('#header');
