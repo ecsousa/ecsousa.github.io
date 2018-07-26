@@ -25,6 +25,7 @@
     '.publicidade-materia',
     '.teads-inread',
     '.top-header',
+    '.site-header',
     '.tudosobre-container',
     '[data-google-query-id]'
   ];
