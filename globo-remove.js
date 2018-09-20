@@ -13,6 +13,7 @@
     '#relacionadas-topo',
     '#sidebar',
     '#outbrain-recomendacao2',
+    '#footerOgloboPianoId',
     '.aep-ads',
     '.banner-topo',
     '.barra-assine',
