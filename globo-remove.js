@@ -28,7 +28,9 @@
     '.top-header',
     '.site-header',
     '.tudosobre-container',
-    '[data-google-query-id]'
+    '[data-google-query-id]',
+    '.block--advertising',
+    '.article-related-links'
   ];
 
   $('body').css('overflow', 'auto');
