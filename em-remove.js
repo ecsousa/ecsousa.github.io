@@ -1,5 +1,5 @@
 // Bookmarklet URL:
-// javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://ecsousa.github.io/em-remove.js';})();
+// javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js';document.body.appendChild(document.createElement('script')).src='https://ecsousa.github.io/em-remove.js';})();
 
 (function() {
   var selectorsToRemove = [
