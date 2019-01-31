@@ -34,7 +34,8 @@
         'div.em-publicidade-retangulo-interna',
         'section.read-more-about',
         'aside',
-        'div#taboola-below-article-thumbnails'
+        'div#taboola-below-article-thumbnails',
+        'dev#onesignal-bell-container'
       ];
 
       selectorsToRemove.forEach(function(item) {
