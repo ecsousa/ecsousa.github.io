@@ -32,6 +32,7 @@
         'div div.read-more-widget',
         'div.ads',
         'div.read-more',
+        'div.publicidade',
         'div.em-publicidade-retangulo-interna',
         'section.read-more-about',
         'aside',
