@@ -31,6 +31,7 @@
         'header.header-border-underline',
         'div div.read-more-widget',
         'div.ads',
+        'div.read-more',
         'div.em-publicidade-retangulo-interna',
         'section.read-more-about',
         'aside',
