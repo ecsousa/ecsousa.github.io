@@ -52,7 +52,8 @@
             '.tudosobre-container',
             '[data-google-query-id]',
             '.block--advertising',
-            '.article-related-links'
+            '.article-related-links',
+            'div.shopping'
           ];
 
           $('body').css('overflow', 'auto');
