@@ -24,6 +24,7 @@
 
     function initMyBookmarklet() {
       var selectorsToRemove = [
+        '.hidden-print',
         'header.header-fixed',
         'nav.nav-fix',
         'div.onesignal-bell-launcher-button',
