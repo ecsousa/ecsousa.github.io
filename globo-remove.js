@@ -10,7 +10,7 @@
     if (window.jQuery === undefined || window.jQuery.fn.jquery < v) {
         var done = false;
         var script = document.createElement("script");
-        script.src = "http://ajax.googleapis.com/ajax/libs/jquery/" + v + "/jquery.min.js";
+        script.src = "https://ajax.googleapis.com/ajax/libs/jquery/" + v + "/jquery.min.js";
         script.onload = script.onreadystatechange = function(){
             if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
                 done = true;
@@ -59,7 +59,7 @@
           $('body').css('overflow', 'auto');
           $('body').css('display', 'contents');
 
-          if($(location).attr('href') != 'http://www.globo.com/') {
+          if($(location).attr('href') != 'https://www.globo.com/') {
             selectorsToRemove.push('#header');
             selectorsToRemove.push('#glb-topo');
           }
