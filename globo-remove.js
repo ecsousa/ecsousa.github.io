@@ -25,6 +25,8 @@
     function initMyBookmarklet() {
         (window.myBookmarklet = function() {
           var selectorsToRemove = [
+            'header',
+            'progress',
             '#banner_slb_meio',
             '#banner_slb_topo',
             '#header-cbn',
@@ -36,11 +38,13 @@
             '#sidebar',
             '#outbrain-recomendacao2',
             '#footerOgloboPianoId',
+            '.barra-globocom',
             '.aep-ads',
             '.banner-topo',
             '.barra-assine',
             '.box-vejaTambem',
             '.content-ads',
+            '.container-adv',
             '.home-widgets-inferiores',
             '.hui-publicidade--banner_slb_fim',
             '.hui-publicidade--banner_slb_meio',
@@ -49,6 +53,7 @@
             '.teads-inread',
             '.top-header',
             '.site-header',
+            '.related-content',
             '.tudosobre-container',
             '[data-google-query-id]',
             '.block--advertising',
