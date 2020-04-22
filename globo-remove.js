@@ -26,6 +26,7 @@
         (window.myBookmarklet = function() {
           var selectorsToRemove = [
             '#site-header',
+            '#related-content',
             'progress',
             '#banner_slb_meio',
             '#banner_slb_topo',
