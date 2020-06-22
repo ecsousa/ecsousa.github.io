@@ -38,7 +38,8 @@
         'section.read-more-about',
         'aside',
         'div#taboola-below-article-thumbnails',
-        'dev#onesignal-bell-container'
+        'dev#onesignal-bell-container',
+        'iframe'
       ];
 
       selectorsToRemove.forEach(function(item) {
