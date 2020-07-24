@@ -39,6 +39,8 @@
             '#sidebar',
             '#outbrain-recomendacao2',
             '#footerOgloboPianoId',
+            '.adv',
+            '.adv-article',
             '.barra-globocom',
             '.aep-ads',
             '.banner-topo',
