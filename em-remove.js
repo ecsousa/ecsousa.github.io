@@ -39,7 +39,9 @@
         'aside',
         'div#taboola-below-article-thumbnails',
         'dev#onesignal-bell-container',
-        'iframe'
+        'iframe',
+        '._cm-os-slider',
+        'footer'
       ];
 
       selectorsToRemove.forEach(function(item) {
