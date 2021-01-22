@@ -61,7 +61,8 @@
             '[data-google-query-id]',
             '.block--advertising',
             '.article-related-links',
-            'div.shopping'
+            'div.shopping',
+            '.banner-bottom-fixed-cpnt'
           ];
 
           $('body').css('overflow', 'auto');
