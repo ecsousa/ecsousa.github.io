@@ -39,7 +39,6 @@
         'aside',
         'div#taboola-below-article-thumbnails',
         'dev#onesignal-bell-container',
-        'iframe',
         '._cm-os-slider',
         'footer'
       ];
