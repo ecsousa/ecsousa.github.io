@@ -24,6 +24,7 @@
 
     function initMyBookmarklet() {
       var selectorsToRemove = [
+        '.ads-ancorads',
         '.hidden-print',
         'header.header-fixed',
         'nav.nav-fix',
