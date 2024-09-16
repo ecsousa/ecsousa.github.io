@@ -63,7 +63,8 @@
             '.tudosobre-container',
             '[data-google-query-id]',
             'div.shopping',
-            'progress'
+            'progress',
+            '.tp-container-inner'
           ];
 
           $('body').css('overflow', 'auto');
