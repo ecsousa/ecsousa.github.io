@@ -54,7 +54,8 @@
         '[data-google-query-id]',
         'div.shopping',
         'progress',
-        '.tp-container-inner'
+        '.tp-container-inner',
+        '.mobiliarioAdblock'
     ];
 
     function runRemoval() {
