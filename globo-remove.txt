@@ -1,0 +1,56 @@
+! Title: Globo Remove
+! Description: Removes specific elements from globo.com domains
+! Version: 1.0
+! Author: ecsousa
+! Homepage: https://ecsousa.github.io/
+
+! Restore body scrolling and layout (overrides paywall/modal locks)
+globo.com##body:style(overflow: auto !important; display: contents !important;)
+
+! Elements to hide across all globo.com domains
+globo.com###banner_slb_meio
+globo.com###banner_slb_topo
+globo.com###footerOgloboPianoId
+globo.com###header-cbn
+globo.com###header-produto
+globo.com###login-barreira
+globo.com###oglobo-shopping
+globo.com###onesignal-popover-container
+globo.com###outbrain-recomendacao2
+globo.com###relacionadas-topo
+globo.com###related-content
+globo.com###sidebar
+globo.com###site-header
+globo.com##.adv
+globo.com##.adv-article
+globo.com##.aep-ads
+globo.com##.article-related-links
+globo.com##.banner-bottom-fixed-cpnt
+globo.com##.banner-topo
+globo.com##.barra-assine
+globo.com##.barra-globocom
+globo.com##.block--advertising
+globo.com##.block__advertising
+globo.com##.box-vejaTambem
+globo.com##.container-adv
+globo.com##.content-ads
+globo.com##.home-widgets-inferiores
+globo.com##.hui-publicidade--banner_slb_fim
+globo.com##.hui-publicidade--banner_slb_meio
+globo.com##.publicidade
+globo.com##.publicidade-materia
+globo.com##.related-content
+globo.com##.site-header
+globo.com##.teads-inread
+globo.com##.top-header
+globo.com##.tudosobre-container
+globo.com##[data-google-query-id]
+globo.com##div.shopping
+globo.com##progress
+globo.com##.tp-container-inner
+globo.com##.mobiliarioAdblock
+
+! Hide header elements on globo.com subdomains, excluding www.globo.com
+! (Brave cosmetic filters match by domain rather than exact URL path)
+globo.com,~www.globo.com###header
+globo.com,~www.globo.com###glb-topo
