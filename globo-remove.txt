@@ -1,4 +1,5 @@
 ! Title: Globo Remove
+! Expires: 1 day (update frequency)
 ! Description: Removes specific elements from globo.com domains
 ! Version: 1.0
 ! Author: ecsousa
@@ -49,8 +50,13 @@ globo.com##div.shopping
 globo.com##progress
 globo.com##.tp-container-inner
 globo.com##.mobiliarioAdblock
+globo.com###next-article
+globo.com##.bottom-bar__tab
+globo.com##.btmb-g1.bottom-bar-navigation
+globo.com##article.cxm-block-video__player-wrapper
 
 ! Hide header elements on globo.com subdomains, excluding www.globo.com
 ! (Brave cosmetic filters match by domain rather than exact URL path)
 globo.com,~www.globo.com###header
 globo.com,~www.globo.com###glb-topo
+
