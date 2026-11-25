@@ -1,0 +1,26 @@
+! Title: ecsousa rules
+! Expires: 1 day (update frequency)
+! Description: de-shitify some pages
+! Version: 1.0
+! Author: ecsousa
+! Homepage: https://ecsousa.github.io/
+
+globo.com,techtudo.com.br##+js(trusted-click-element, button.mc-read-more-btn, , 500)
+
+globo.com,techtudo.com.br##header.header--fixed
+globo.com,techtudo.com.br##header.sticky
+globo.com,techtudo.com.br##article.cxm-block-video__player-wrapper
+globo.com,techtudo.com.br###next-article
+globo.com,techtudo.com.br##.bottom-bar-navigation
+globo.com,techtudo.com.br##section.ad-container
+globo.com,techtudo.com.br##banner-ad
+globo.com,techtudo.com.br##.block--advertising
+
+em.com.br##div.rasgado
+em.com.br##article:has(div#em-publicidade-retangulo-1):remove()
+em.com.br##div.edm-most-read
+em.com.br##div.edm-container-discovery
+em.com.br##div.publicidade-interna-container
+em.com.br##div.edm-read-more
+em.com.br##header.edm-header-small
+em.com.br##div.publicidade-in-image
